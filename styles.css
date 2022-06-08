@@ -1,0 +1,63 @@
+/* This is approved styles for the site*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #2b2a2a;
+    background-color: beige;
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a{
+    color: maroon;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:visited{
+    color: maroon;
+}
+
+.resumeListheading {
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+/* This is a cool trick*/
+
+.underline {text-decoration: underline;}
+
+.bold{font-weight: bold;}
+
+.justify{text-align: justify;}
+
+.homebg{
+    background-image: url('images/moonknightbg.png');
+    background-position: bottom right; /*Chrome version*/
+}
+
+.box1 {
+    border: solid 1px pink;
+    border-bottom: dotted 2px pink;
+}
+
+.box2 {padding: 4px;}
+
+.box3{
+    margin: 50px;
+}
+
+.box4{
+    padding-left: 10px;
+    margin: 100px;
+    border-right: solid 5px blue;
+}
